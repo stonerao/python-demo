@@ -17,3 +17,21 @@ CONST_NUM = 10;
 
 print(10/3) #3.333333
 print(10//3) #3 地板除
+
+print('我是中文')
+
+# list 有序集合 参考js Array
+classmates=['stonerao','raoyan','ptt'] # classmates[0] === 'stonerao' 如果超出范围则会报错
+len(classmates) #获取当前个数 3
+classmates.append("raolele") #['stonerao', 'raoyan', 'ptt', 'raolele']
+classmates.insert(1,"stone") #['stonerao', 'stone', 'raoyan', 'ptt', 'raolele']
+classmates.pop() #['stonerao', 'stone', 'raoyan', 'ptt'] 删除最后一个
+# pop(index) 带入参数 删除指定
+# classmates[0] = '' 指定索引替换
+# list 类型可以多样化
+# 可包含其他list
+
+# tuple元祖 类似于list 区别 tuple一旦初始化就不可修改
+
+tuples = ('stonerao')
+print(tuples)
