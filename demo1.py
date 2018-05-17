@@ -1,3 +1,4 @@
+# 基础
 # 输出
 print("hello word")
 # boolean
@@ -35,3 +36,27 @@ classmates.pop() #['stonerao', 'stone', 'raoyan', 'ptt'] 删除最后一个
 
 tuples = ('stonerao')
 print(tuples)
+# 循环
+for name in classmates:
+    print(name)
+
+num = 0
+while num < 100:
+    num=num+5
+    #print(num)
+    if num==50:
+        break
+
+s = set([1,2,3])
+print(s) # {1,3,4}
+s.add(4) # {1,2,3,4}
+s1 = set({3,4,5})
+print(s & s1) # {3,4} 找出相同
+print(s | s1) # {1,2,3,4,5,6} 无序重合
+
+a = ['c', 'b', 'a']
+a.sort()
+print(a) # ['a','b','c']
+
+a = 'abc'
+print(a.replace('a','A')) # Abc
